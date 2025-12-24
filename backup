@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Texto Oswald</title>
+  <!-- Importar fuente Oswald desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    .bloque-abono {
+      font-family: 'Oswald', sans-serif;
+      margin: 50px;
+      background: transparent; /* fondo transparente */
+    }
+    .bloque-abono h1 {
+      font-size: 48px;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .bloque-abono p {
+      font-size: 20px;
+      font-weight: 400;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 1200px;
+    }
+    .bloque-abono ul {
+      list-style-position: inside; /* marcador dentro del bloque */
+      text-align: center;          /* centra texto y marcador */
+      padding: 0;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    .bloque-abono li {
+      font-size: 20px;
+      font-weight: 400;
+      margin: 5px 0;
+    }
+    @media (max-width: 600px) {
+      .bloque-abono h1 {
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .bloque-abono p {
+        font-size: 15px;
+        font-weight: 400;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+      .bloque-abono ul {
+        list-style-position: inside; /* marcador dentro del bloque */
+        text-align: center;          /* centra texto y marcador */
+        padding: 0;
+        margin: 20px auto;
+        max-width: 600px;
+      }
+      .bloque-abono li {
+        font-size: 15px;
+        font-weight: 400;
+        margin: 5px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bloque-abono">
+    <h1>INFORMACIÓN PARA ABONADOS ANTIGUOS</h1>
+    <p><strong> Se considera ABONADO ANTIGUO aquel que de manera conjunta:</strong><br>
+    (i) Haya adquirido el Plan de Abonados del a&ntilde;o dos mil veinticinco (2025) segundo semestre (2025-II) y<br>
+    (ii) Haya recargado el abono para la Fase de Cuadrangulares de la Liga Betplay 2025-II.
+    </p>   
+    <p>
+      <strong> El abono de temporada 2026-I consta de 10 partidos, conformados por:</strong>
+    </p>
+    <ul>
+      <li>9 Partidos de la fase "Todos Contra Todos"</li>
+      <li>1 partido de la fase previa de CONMEBOL Sudamericana</li>
+    </ul>
+    <p>
+        <strong> El periodo para adquirir el presente Plan de Abonados del primer semestre del año dos mil veintiséis (2026) será  de la siguiente forma:</strong><br>
+        Iniciará  a partir de la fecha en que se lance a través de los canales oficiales de Atlético Nacional, esto es, desde el día veintitrés (23) del mes de diciembre del año dos mil veinticinco (2025) y hasta el día diecisiete (17) del mes de enero del año dos mil veintiséis (2026). <br>
+        La ubicación de los Abonados Antiguos solo se reservara  hasta las hasta las 23:59 horas del día siete (7) del mes de enero del año dos mil veintiséis (2026); el día ocho (8) del mes de enero del año dos mil veintiséis (2026) los Abonados Antiguos tendrán la posibilidad de realizar cambio de silla y/o tribuna, siempre y cuando la misma se encuentre disponible.<br>
+        Con independencia del cambio de ubicación que realice el Abonado Antiguo se conservará el precio preferencial de acuerdo con la tribuna que seleccione. <br>
+        Desde el día nueve (9) del mes de diciembre del año dos mil veintiséis (2026), se liberarán todas las ubicaciones para venta al público.  
+    </p>
+  </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet" />
+<style type="text/css">.ticket-section {
+        font-family: 'Oswald', sans-serif;
+        max-width: 100%;
+    }
+
+    .ticket-section h1 {
+        text-align: center;
+        font-size: 48px;
+        color: #3e3e3e;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .ticket-section p {
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 15px;
+    }
+
+    .ticket-section h2 {
+        text-align: center;
+        font-size: 20px;
+        color: #3e3e3e;
+        font-weight: 700;
+        margin: 30px 0 10px;
+    }
+
+    .ticket-table {
+        margin: 20px auto;
+        width: 90%;
+        max-width: 1000px;
+        border-collapse: collapse;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .ticket-table th, .ticket-table td {
+        padding: 10px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .ticket-table thead {
+        background-color: #009739;
+        color: black;
+    }
+
+    .ticket-table tbody {
+        background-color: #f2f2f2;
+        color: black;
+    }
+
+    .ticket-table tr {
+        border-bottom: 1px solid #ffffff;
+    }
+
+    @media (max-width: 600px) {
+	    .ticket-section h1 {
+        	text-align: center;
+        	font-size: 24px;
+        	color: #3e3e3e;
+        	font-weight: 700;
+        	margin-bottom: 10px;
+    	}
+		.ticket-section p {
+        	text-align: center;
+        	font-size: 13px;
+        	margin-bottom: 15px;
+    	}
+		.ticket-section h2 {
+        	text-align: center;
+        	font-size: 10px;
+        	color: #3e3e3e;
+        	font-weight: 700;
+       		margin: 30px 0 10px;
+    	}
+
+        .ticket-table {
+            margin: 10px auto;
+            width: 90%;
+            max-width: 500px;
+            border-collapse: collapse;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+		.ticket-table th, .ticket-table td {
+        	padding: 10px;
+        	text-align: center;
+        	font-size: 10px;
+		}
+    }
+</style>
+<div class="ticket-section">
+<h1>TABLA DE PRECIOS</h1>
+<p>ABONADOS 2025-II</p>
+
+<table class="ticket-table">
+	<thead>
+		<tr>
+			<th>LOCALIDAD</th>
+			<th>PRECIO</th>
+			<th>SERVICIO</th>
+			<th>TOTAL</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td data-label="LOCALIDAD">PLATEA</td>
+			<td data-label="PRECIO">$ 1.605.000</td>
+			<td data-label="SERVICIO">$ 72.578</td>
+			<td data-label="TOTAL">$ 1.677.578</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">OCCIDENTAL ALTA</td>
+			<td data-label="PRECIO">$ 1.054.000</td>
+			<td data-label="SERVICIO">$5.489</td>
+			<td data-label="TOTAL">$67.000</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">OCCIDENTAL BAJA</td>
+			<td data-label="PRECIO">$61.511</td>
+			<td data-label="SERVICIO">$5.489</td>
+			<td data-label="TOTAL">$67.000</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">ORIENTAL ALTA</td>
+			<td data-label="PRECIO">$114.758</td>
+			<td data-label="SERVICIO">$10.242</td>
+			<td data-label="TOTAL">$125.000</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">ORIENTAL BAJA</td>
+			<td data-label="PRECIO">$84.921</td>
+			<td data-label="SERVICIO">$7.579</td>
+			<td data-label="TOTAL">$92.500</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">NORTE</td>
+			<td data-label="PRECIO">$88.135</td>
+			<td data-label="SERVICIO">$7.865</td>
+			<td data-label="TOTAL">$96.000</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">SUR</td>
+			<td data-label="PRECIO">$88.135</td>
+			<td data-label="SERVICIO">$7.865</td>
+			<td data-label="TOTAL">$96.000</td>
+		</tr>
+		<tr>
+			<td data-label="LOCALIDAD">GRAMILLA (MOVILIDAD REDUCIDA)</td>
+			<td data-label="PRECIO">$88.135</td>
+			<td data-label="SERVICIO">$7.865</td>
+			<td data-label="TOTAL">$96.000</td>
+		</tr>
+	</tbody>
+</table>
